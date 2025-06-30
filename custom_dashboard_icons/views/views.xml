@@ -1,0 +1,141 @@
+<odoo>
+    <data>
+        <menuitem name="Purchase"
+                  id="purchase.menu_purchase_root"
+                  groups="purchase.group_purchase_manager,purchase.group_purchase_user"
+                  web_icon="custom_dashboard_icons,static/description/icon.png"
+                  sequence="135"/>
+        <menuitem name="To-do"
+                  id="project_todo.menu_todo_todos"
+
+                  web_icon="custom_dashboard_icons,static/description/TO_DO.png"/>
+
+        <menuitem name="Website"
+                  id="website.menu_website_configuration"
+
+                  web_icon="custom_dashboard_icons,static/description/Website.png"/>
+        <menuitem name="Surveys"
+                  id="survey.menu_surveys"
+
+                  web_icon="custom_dashboard_icons,static/description/survey.png"/>
+        <menuitem name="Attendances"
+                  id="hr_attendance.menu_hr_attendance_root"
+
+                  web_icon="custom_dashboard_icons,static/description/attendance.png"/>
+
+        <menuitem name="Live Chat"
+                  id="im_livechat.menu_livechat_root"
+
+                  web_icon="custom_dashboard_icons,static/description/live_chat.png"/>
+        <menuitem name="Accounting"
+                  id="account_accountant.menu_accounting"
+
+                  web_icon="custom_dashboard_icons,static/description/account.png"/>
+
+        <menuitem name="Calendar"
+                  id="calendar.mail_menu_calendar"
+
+                  web_icon="custom_dashboard_icons,static/description/clander.png"/>
+
+        <menuitem name="Contacts"
+                  id="contacts.menu_contacts"
+
+                  web_icon="custom_dashboard_icons,static/description/contacte.png"/>
+
+        <menuitem name="CRM"
+                  id="crm.crm_menu_root"
+
+                  web_icon="custom_dashboard_icons,static/description/crm.png"
+                  groups="sales_team.group_sale_salesman,sales_team.group_sale_manager"
+                  sequence="25"/>
+        <menuitem id="my_chatgpt_module.menu_chatgpt_root"
+                  name="Chat"
+                  web_icon="custom_dashboard_icons,static/description/cchat.png"/>
+
+               <menuitem name="Dashboards"
+                id="spreadsheet_dashboard.spreadsheet_dashboard_menu_root"
+                web_icon="custom_dashboard_icons,static/description/dashbord.png"
+                sequence="37"/>
+
+              <menuitem name="Discuss"
+                id="mail.menu_root_discuss"
+                web_icon="custom_dashboard_icons,static/description/desction.png"
+                sequence="5"
+            />
+
+    <menuitem name="Documents" id="documents.menu_root"
+              groups="documents.group_documents_user"
+              web_icon="custom_dashboard_icons,static/description/Documents1.png" sequence="65"/>
+
+              <menuitem name="Employee"
+                    id="hr.menu_hr_root"
+                    web_icon="custom_dashboard_icons,static/description/Employees.png"
+                    sequence="185"/>
+
+            <menuitem id="hr_work_entry_contract_enterprise.menu_hr_payroll_root"
+                      name="Payroll"
+                      sequence="190"
+                      web_icon="custom_dashboard_icons,static/description/Payroll.png"/>
+
+        <menuitem
+        id="point_of_sale.menu_point_root"
+        name="Point of Sale"
+        web_icon="custom_dashboard_icons,static/description/pos.png"
+        sequence="50"/>
+
+        <menuitem name="Email Marketing"
+              id="mass_mailing.mass_mailing_menu_root"
+              sequence="115"
+              web_icon="custom_dashboard_icons,static/description/email-market.png"
+              groups="mass_mailing.group_mass_mailing_user"/>
+
+
+        <menuitem id="hr_expense.menu_hr_expense_root"
+                  name="Expenses" sequence="230"
+                  web_icon="custom_dashboard_icons,static/description/Expenses.png"/>
+
+            <menuitem name="Fleet"
+                      id="fleet.menu_root"
+                      sequence="220"
+                      web_icon="custom_dashboard_icons,static/description/feelt.png"/>
+
+        <menuitem name="Inventory" id="stock.menu_stock_root" sequence="140"
+        web_icon="custom_dashboard_icons,static/description/inventory.png"/>
+
+        <menuitem id="sale.sale_menu_root"
+        name="Sales"
+        web_icon="custom_dashboard_icons,static/description/sales.png"
+        sequence="30"/>
+
+        <menuitem
+        name="Time Off"
+        id="hr_holidays.menu_hr_holidays_root"
+        sequence="225"
+        web_icon="custom_dashboard_icons,static/description/Time_Off.png"
+        groups="base.group_user"/>
+
+        <menuitem
+        name="Project"
+        id="project.menu_main_pm"
+        web_icon="custom_dashboard_icons,static/description/project.png"
+        sequence="70"
+    />
+        <menuitem name="Settings"
+          id="base.menu_administration"
+          web_icon="custom_dashboard_icons,static/description/setting.png"
+          sequence="550"
+         />
+        <menuitem
+        id="helpdesk.menu_helpdesk_root"
+        name="Helpdesk"
+        sequence="90"
+        web_icon="custom_dashboard_icons,static/description/support.png"
+/>
+
+
+
+
+
+
+    </data>
+</odoo>
